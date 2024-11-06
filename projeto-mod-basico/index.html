@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8" content="width=device-width" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Home</title>
   </head>
   <body>
     <header>Loja Avanti</header>
     <nav>
-      <ul>
-        <li><a>Produtos</a></li>
-        <li><a href="./index-2aPagina.html">Visite-nos</a></li>
-        <li><a href="./index-3aPagina.html">Sobre nós</a></li>
-        <li><a href="./index-4aPagina.html">Trabalhe conosco</a></li>
+      <ul class="itens-navbar">
+        <li class="item-navbar pag-atual"><a>Produtos</a></li>
+        <li class="item-navbar">
+          <a href="./index-2aPagina.html">Visite-nos</a>
+        </li>
+        <li class="item-navbar">
+          <a href="./index-3aPagina.html">Sobre nós</a>
+        </li>
+        <li class="item-navbar">
+          <a href="./index-4aPagina.html">Trabalhe conosco</a>
+        </li>
       </ul>
       <form>
         <input type="search" placeholder="Consulte aqui..." />
+        <button>Pesquisar</button>
       </form>
     </nav>
     <main>

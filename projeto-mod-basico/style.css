@@ -1,0 +1,100 @@
+body {
+  margin: 0 auto;
+  font-family: sans-serif;
+  background-color: rgb(84, 39, 175);
+  color: rgb(255, 255, 255);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(123, 62, 244);
+  height: 55px;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.itens-navbar {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(76, 8, 212);
+  font-size: 14px;
+}
+
+.item-navbar {
+  list-style: none;
+  width: 70%;
+  height: 35px;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.item-navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  width: 100%;
+}
+
+.item-navbar:hover {
+  color: black;
+  cursor: pointer;
+  background-color: rgba(164, 136, 255, 0.585);
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.item-navbar:active {
+  background-color: rgb(49, 19, 148);
+}
+
+.pag-atual {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: rgba(184, 163, 255, 0.809);
+  border-radius: 8px;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  padding-right: 45px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+input {
+  width: 158px;
+  height: 28px;
+  padding: 5px;
+  border-radius: 4px;
+  border: none;
+}
+
+button {
+  height: 28px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: rgba(164, 136, 255, 0.585);
+}
+
+table {
+  color: rgb(0, 0, 0);
+}
